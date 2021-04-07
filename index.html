@@ -11,25 +11,24 @@
   <main id="main">
   <body>
     <h1 id="title">2021 Bike Month Survey</h1>
-    <p id="description">Please take a moment to answer some questions about your 
-        past experiences with bike month so you can help us gear up for bike month 2021!</p>
+    <p id="description">Please take a moment to help us plan for bike month 2021!</p>
     <form id="survey-form" action="test.php" method="post">
     <fieldset>
       <label for="name" id="name-label">Name</label>
-      <input type="text" placeholder="Enter your name or bike month nickname" id="name" required>
+      <input type="text" placeholder="Enter your name or bike month nickname" id="name" required><br>
       <label for="email" id="email-label">Email address</label>
-      <input type="email" id="email" placeholder="Enter your email address" required>
+      <input type="email" id="email" placeholder="Enter your email address" required><br>
       <label for="number" id="number-label">Age</label>
-      <input type="number" id="number" placeholder="Enter your age" min="1" max="125">
-      <label for="dropdown" id="dropdown-label">Please choose the option that best describes your cycling habits</label>
+      <input type="number" id="number" placeholder="Enter your age" min="1" max="125"><br>
+      <label for="dropdown" id="dropdown-label">Choose the option that best describes your cycling habits</label>
       <select name="bike-status" id="dropdown">
           <option value="every-day">I live on my bike</option>
           <option value="sometimes">My bike is an occasional frenemy</option>
           <option value="never">I forgot I owned a bike</option>
           <option value="no-bike">What's a bicycle?</option>
-      </select>
+      </select><br>
       <div id="radio-div">
-        <p id="radio-text">Choose a bike month team name:</p>
+        <p id="radio-text">Choose a bike month team name</p>
         <label for="bikeasaurus">
             <input id="bikeasaurus" value="bikeasaurus" name="team-name" type="radio">Bikeasaurus
         </label>
@@ -44,7 +43,7 @@
         </label>
       </div>
       <div id="checkbox-div">
-          <p id="checkbox-text">Select the values you'd like your bike month team to embody:</p>
+          <p id="checkbox-text">Select the values you'd like your bike month team to embody</p>
           <label for="cutthroat"><input id="cutthroat" value="cutthroat" type="checkbox" name="team-values">Cutthroat</label>
           <label for="fun"><input id="fun" value="fun" type="checkbox" name="team-values">Fun</label>
           <label for="scrappy"><input id="scrappy" value="scrappy" type="checkbox" name="team-values">Scrappy</label>
@@ -53,8 +52,8 @@
           <label for="crafty"><input id="crafty" value="crafty" type="checkbox" name="team-values">Crafty</label>
           <label for="after-party"><input id="after-party" value="after-party" type="checkbox" name="team-values">Just in it for 
             the after-party</label>
-      </div>
-      <label for="message">Write a message to your future bike month teammates:</label>
+      </div><br>
+      <label for="message">Write a message to your future bike month teammates</label>
       <textarea id="message" name="message" rows="4" cols="50">Dear teammates, I expect nothing less than perfection...</textarea>
       <button type="submit" id="submit">Submit</button>
     </fieldset>
