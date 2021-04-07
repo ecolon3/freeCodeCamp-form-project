@@ -1,0 +1,17 @@
+body {
+  background: rgb(26, 70, 151);
+  color: white;
+}
+h1 {
+
+}
+#description {
+
+}
+fieldset {
+  background-color:rgb(12, 39, 90);
+}
+input[type=text], input[type=email], input[type=number], textarea, #dropdown {
+    background-color: white;
+    color: rgb(49, 50, 107);
+}
